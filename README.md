@@ -26,7 +26,7 @@ npm start
 Penggunaan
 Jelaskan secara singkat bagaimana cara menggunakan proyek ini. Anda bisa memberikan contoh kode, tangkapan layar, atau panduan singkat.
 
-Kontribusi
+Konttribusi
 
 Kami menyambut kontribusi dari siapa pun! Jika Anda ingin berkontribusi, ikuti langkah berikut:
 Fork repositori ini.
