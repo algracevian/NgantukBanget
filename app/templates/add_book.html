@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Book - NgantukBanget{% endblock %}
+
+{% block content %}
+<h1 class="text-center mb-4">Add New Book</h1>
+
+<form method="POST">
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title" name="title" required>
+    </div>
+    <div class="mb-3">
+        <label for="author" class="form-label">Author</label>
+        <input type="text" class="form-control" id="author" name="author" required>
+    </div>
+    <div class="mb-3">
+        <label for="year" class="form-label">Year</label>
+        <input type="number" class="form-control" id="year" name="year" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Book</button>
+</form>
+{% endblock %}
